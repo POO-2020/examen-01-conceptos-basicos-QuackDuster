@@ -31,9 +31,10 @@ class Main{
         console.log("-----Receta------")
         receta.agregarIngrediente(this.ing1)
         receta.agregarIngrediente(this.ing2)
-        receta.getNumeroIngredientes()
+        
         receta.getCosto()
         receta.imprimirEnConsola()
+        console.log(receta.getNumeroIngredientes())
     }
     
 }

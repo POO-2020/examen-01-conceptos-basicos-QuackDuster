@@ -15,10 +15,10 @@ export default class Receta{
 
     getNumeroIngredientes(){
         let num = 0
-        this.ingredientes.forEach((i) =>{
+        this.ingredientes.forEach((ingrediente,i) =>{
            num = i
         })
-        return num+1
+        return num+1 + " ingredientes totales"
     }
 
     getCosto(){
