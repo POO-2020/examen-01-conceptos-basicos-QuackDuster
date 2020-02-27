@@ -18,7 +18,7 @@ export default class Receta{
         this.ingredientes.forEach((ingrediente,i) =>{
            num = i
         })
-        return num+1 + " ingredientes totales"
+        return num+1 
     }
 
     getCosto(){
